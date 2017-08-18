@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-segmented-view@github:ararog/react-native-segmented-view",
+        "scope": null,
+        "escapedName": "react-native-segmented-view",
+        "name": "react-native-segmented-view",
+        "rawSpec": "github:ararog/react-native-segmented-view",
+        "spec": "github:ararog/react-native-segmented-view",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:ararog/react-native-segmented-view.git",
+          "sshUrl": "git+ssh://git@github.com/ararog/react-native-segmented-view.git",
+          "httpsUrl": "git+https://github.com/ararog/react-native-segmented-view.git",
+          "gitUrl": "git://github.com/ararog/react-native-segmented-view.git",
+          "shortcut": "github:ararog/react-native-segmented-view",
+          "directUrl": "https://raw.githubusercontent.com/ararog/react-native-segmented-view/master/package.json"
+        }
+      },
+      "/Users/gring/workspace/l2l-app2"
+    ]
+  ],
+  "_from": "ararog/react-native-segmented-view",
+  "_id": "react-native-segmented-view@1.0.1",
+  "_inCache": true,
+  "_location": "/react-native-segmented-view",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-segmented-view@github:ararog/react-native-segmented-view",
+    "scope": null,
+    "escapedName": "react-native-segmented-view",
+    "name": "react-native-segmented-view",
+    "rawSpec": "github:ararog/react-native-segmented-view",
+    "spec": "github:ararog/react-native-segmented-view",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:ararog/react-native-segmented-view.git",
+      "sshUrl": "git+ssh://git@github.com/ararog/react-native-segmented-view.git",
+      "httpsUrl": "git+https://github.com/ararog/react-native-segmented-view.git",
+      "gitUrl": "git://github.com/ararog/react-native-segmented-view.git",
+      "shortcut": "github:ararog/react-native-segmented-view",
+      "directUrl": "https://raw.githubusercontent.com/ararog/react-native-segmented-view/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/ararog/react-native-segmented-view.git#b76610b8db06ab83575c2d9aa31650b8093aa4e9",
+  "_shasum": "62a2450b8d90499c82012cdfc2160d8c4189a5c0",
+  "_shrinkwrap": null,
+  "_spec": "react-native-segmented-view@github:ararog/react-native-segmented-view",
+  "_where": "/Users/gring/workspace/l2l-app2",
+  "author": {
+    "name": "Leland Richardson"
+  },
+  "bugs": {
+    "url": "https://github.com/lelandrichardson/react-native-segmented-view/issues"
+  },
+  "dependencies": {
+    "react-tween-state": "0.0.5"
+  },
+  "description": "Segmented View for React Native (with animation)",
+  "devDependencies": {},
+  "gitHead": "b76610b8db06ab83575c2d9aa31650b8093aa4e9",
+  "homepage": "https://github.com/lelandrichardson/react-native-segmented-view",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "segmented",
+    "view"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-segmented-view",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.34.1"
+  },
+  "readme": "# react-native-segmented-view\nSegmented View for React Native (with animation)\n\n\n## Demo\n\n![demo](http://media.giphy.com/media/3oEduLBXWcHSxdN8UE/giphy.gif)\n\n![stretch demo](http://media.giphy.com/media/3oEdv2mvoLWdWmxeik/giphy.gif)\n\n\n## Example\n\n    <SegmentedView\n        titles={[\"First\", \"Second\", \"Third\"]}\n        index={this.state.index}\n        stretch\n        onPress={index => this.setState({ index })}\n    />\n\n\n## API (props)\n\n- `titles`: (array) => an array of renderables, or arbitrary data if you specify a `renderTitle` function\n- `index`: (number) => the index of the selected title\n- `stretch`: (bool) => whether or not the titles fill in the space inbetween each other\n- `onPress`: (function(index:number)) => event when a title is tapped, with the index of the title passed in\n- `renderTitle`: (function(title: any, index:number)) => if specified, this function will be called for each\n- `duration`: (number) => the length (in ms) of the animation of the bar from one title to the other when it gets selected\n- `onTransitionStart`: (function) => called when a transition animation starts\n- `onTransitionEnd`: (function) => called when a transition animation ends\n- `barColor`: (string) => the color of the highlight bar\n- `barPosition`: (string) => the position of the highlight bar.\n- `underlayColor`: (string) => the underlay color of a title block\n- `selectedTitleStyle`: (object) => the style of the selected title block\n- `titleStyle`: (object) => the style of a normal (unselected) title block\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelandrichardson/react-native-segmented-view.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
